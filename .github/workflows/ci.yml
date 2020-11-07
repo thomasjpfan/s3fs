@@ -33,6 +33,3 @@ jobs:
       - name: Run Tests
         shell: bash -l {0}
         run: pytest -vv s3fs
-        env:
-          PYTHON_VERSION: ${{ matrix.python-version }}
-
